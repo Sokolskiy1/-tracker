@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/constraint_layout">
+
+
+    <Chronometer
+        android:id="@+id/c_meter"
+        android:layout_width="388dp"
+        android:layout_height="264dp"
+        android:layout_margin="20dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="256dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="28dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#092FEC"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="163dp"
+        android:text="start"
+        app:layout_constraintEnd_toEndOf="@id/c_meter"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/c_meter"
+        app:layout_constraintStart_toStartOf="@id/c_meter"
+        app:layout_constraintTop_toBottomOf="@+id/c_meter" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="163dp"
+        android:text="stop"
+        app:layout_constraintEnd_toEndOf="@id/c_meter"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/c_meter"
+        app:layout_constraintStart_toStartOf="@id/c_meter"
+        app:layout_constraintTop_toBottomOf="@+id/c_meter" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="163dp"
+        android:text="delete"
+        app:layout_constraintEnd_toEndOf="@id/c_meter"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/c_meter"
+        app:layout_constraintStart_toStartOf="@id/c_meter"
+        app:layout_constraintTop_toBottomOf="@+id/c_meter" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
