@@ -23,6 +23,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ui.notifications.NotificationActivity"
+            android:label="lll">
+        </activity>
     </application>
 
 </manifest>

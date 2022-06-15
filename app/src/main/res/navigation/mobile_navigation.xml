@@ -36,4 +36,8 @@
         android:name="com.ven.proj.ui.notifications.Water_new_Fragment"
         android:label="fragment_water_new__list"
         tools:layout="@layout/fragment_water_new__list" />
+    <activity
+        android:id="@+id/notificationActivity"
+        android:name="com.ven.proj.ui.notifications.NotificationActivity"
+        android:label="NotificationActivity" />
 </navigation>
